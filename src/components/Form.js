@@ -3,11 +3,11 @@ import React from "react";
 const Form = () => {
   return (
     <form>
-      <input type="text" className={}/>
-      <button type={submit}>
-        <i className={fas fa-plus-square}></i>
+      <input type="text" className={""}/>
+      <button type={"submit"}>
+        <i className="fas fa-plus-square"></i>
       </button>
-      <div className={select}>
+      <div className={"select"}>
         <select name="todos" className="filter-todo">
           <option value="all">all</option>
           <option value="completed">completed</option>
@@ -17,3 +17,5 @@ const Form = () => {
     </form>
   );
 }
+
+export default Form;
